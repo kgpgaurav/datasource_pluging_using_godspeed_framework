@@ -1,0 +1,37 @@
+{
+<<<<<<< HEAD
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"strict": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true
+	},
+	"exclude": [
+		"./node_modules"
+	],
+	"name": "my-godspeed-project"
+}
+=======
+        "compilerOptions": {
+          "target": "es2017",
+          "lib": ["es2017", "dom", "esnext"],
+          "module": "commonjs",
+          "outDir": "./dist",
+          "rootDir": "./src",
+          "strict": true,
+          "declaration": true,
+          "moduleResolution": "node",
+          "sourceMap": true,
+          "esModuleInterop": true
+        },
+        "exclude":[
+          "./node_modules",
+          "./dist"
+        ]
+      }
+>>>>>>> b989e5389aa407c2f40d5616c853d7ae968865da

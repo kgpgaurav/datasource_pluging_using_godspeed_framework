@@ -1,0 +1,17 @@
+http.post./gemini/generate:
+  summary: Generate content using Gemini API
+  description: Uses Gemini to generate content based on prompt
+  fn: generate_text
+  body:
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            prompt:
+              type: string
+  responses:
+    content:
+      application/json:
+        schema:
+          type: object

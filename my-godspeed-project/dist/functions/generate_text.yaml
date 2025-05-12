@@ -1,0 +1,8 @@
+summary: Generate text using Gemini API
+tasks:
+  - id: generate-content
+    fn: datasource.gemini.execute
+    args:
+      operation: generateContent
+      model: default
+      prompt: <% inputs.body.prompt %>
